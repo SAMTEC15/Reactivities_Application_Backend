@@ -6,10 +6,14 @@ C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactiv
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.AssemblyInfoInputs.cache
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.AssemblyInfo.cs
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.csproj.CoreCompileInputs.cache
-C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.sourcelink.json
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.dll
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\refint\Reactivities.Application.dll
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.pdb
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\ref\Reactivities.Application.dll
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\bin\Debug\net6.0\Reactivities.Application.runtimeconfig.json
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.genruntimeconfig.cache
+C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\bin\Debug\net6.0\Reactivities.Domain.dll
+C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\bin\Debug\net6.0\Reactivities.Persistence.dll
+C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\bin\Debug\net6.0\Reactivities.Persistence.pdb
+C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\bin\Debug\net6.0\Reactivities.Domain.pdb
+C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Application\obj\Debug\net6.0\Reactivities.Application.csproj.CopyComplete

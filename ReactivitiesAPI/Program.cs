@@ -1,11 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using MediatR;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Reactivities.Application.Activities;
 using Reactivities.Persistence;
 using System;
+using System.Reflection;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +19,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddHttpContextAccessor();
 builder.Services.AddDbContext<DataContext>(option =>
 {
     option.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -30,6 +35,8 @@ builder.Services.AddCors(options =>
         .AllowAnyHeader().WithOrigins("http://localhost:3000");
     });
 });
+
+builder.Services.AddMediatR(c => c.RegisterServicesFromAssembly(typeof(List.Handler).Assembly));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

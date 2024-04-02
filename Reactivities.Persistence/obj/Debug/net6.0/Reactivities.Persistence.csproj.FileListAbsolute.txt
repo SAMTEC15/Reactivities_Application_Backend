@@ -8,7 +8,6 @@ C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactiv
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\Reactivities.Persistence.AssemblyInfoInputs.cache
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\Reactivities.Persistence.AssemblyInfo.cs
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\Reactivities.Persistence.csproj.CoreCompileInputs.cache
-C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\Reactivities.Persistence.sourcelink.json
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\Reactivities.Persistence.csproj.CopyComplete
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\Reactivities.Persistence.dll
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactivities.Persistence\obj\Debug\net6.0\refint\Reactivities.Persistence.dll
