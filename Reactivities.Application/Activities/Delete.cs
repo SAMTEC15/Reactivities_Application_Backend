@@ -1,6 +1,4 @@
-﻿using AutoMapper;
-using MediatR;
-using Reactivities.Domain;
+﻿using MediatR;
 using Reactivities.Persistence;
 using System;
 using System.Collections.Generic;
@@ -10,28 +8,26 @@ using System.Threading.Tasks;
 
 namespace Reactivities.Application.Activities
 {
-    public class Edit
+    public class Delete
     {
         public class Command : IRequest
         {
-            public Activity Activity { get; set; }
+            public Guid Id { get; set; } 
         }
         public class Handler : IRequestHandler<Command>
         {
             private readonly DataContext _dataContext;
-            private readonly IMapper _mapper;
 
-            public Handler(DataContext dataContext, IMapper mapper)
+            public Handler(DataContext dataContext)
             {
-                _dataContext = dataContext;
-               _mapper = mapper;
+               _dataContext = dataContext;
             }
-
             public async Task Handle(Command request, CancellationToken cancellationToken)
             {
-                var activity = await _dataContext.Activities.FindAsync(request.Activity.Id);
-               _mapper.Map(request.Activity, activity);
-                await _dataContext.SaveChangesAsync();
+                var activity = await _dataContext.Activities.FindAsync(request.Id);
+                _dataContext.Remove(activity);
+
+                _dataContext.SaveChanges();
             }
         }
     }

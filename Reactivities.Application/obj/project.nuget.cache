@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yGmocaIoZvDeJaeQKNZeyvt9ZqDiTIIb07JnoXGwGXinSix0p5NLtBl5SDt/Dp6mb/ga3IoFY/adT8stp2HaaQ==",
+  "dgSpecHash": "LsGwCVzRCrUpCkaXvLu6vpX92HKv2KUnPp5UP5JT1YPmmfL4Fj/uEYt28NzQDUhcP/fk3gILF1Zf3WI/iiAqyQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user1\\source\\Personal\\Reactivities\\Reactivities_BE\\Reactivities\\Reactivities.Application\\Reactivities.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user1\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\user1\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

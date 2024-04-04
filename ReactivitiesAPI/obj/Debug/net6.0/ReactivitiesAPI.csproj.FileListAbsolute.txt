@@ -65,3 +65,4 @@ C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\Reactiv
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\ReactivitiesAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\ReactivitiesAPI\bin\Debug\net6.0\Reactivities.Application.dll
 C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\ReactivitiesAPI\bin\Debug\net6.0\Reactivities.Application.pdb
+C:\Users\user1\source\Personal\Reactivities\Reactivities_BE\Reactivities\ReactivitiesAPI\bin\Debug\net6.0\AutoMapper.dll
