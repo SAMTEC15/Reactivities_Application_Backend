@@ -16,9 +16,9 @@ namespace ReactivitiesAPI.Controllers
     {
 
         [HttpGet]
-        public async Task<ActionResult<List<Activity>>> GetActivities(CancellationToken ct)
+        public async Task<ActionResult<List<Activity>>> GetActivities()
         {
-            return await Mediator.Send(new List.Query(), ct);
+            return await Mediator.Send(new List.Query());
         }
         [HttpGet("{id}")]
         public async Task<ActionResult<Activity>> GetActivityById(Guid id)

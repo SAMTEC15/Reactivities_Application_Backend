@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reactivities.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3fc9f2d4ba0a30333dc9a64aea94ca3dc202e708")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2b6a3b8225aac4516a5a1a69837cf12d3e76460")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reactivities.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reactivities.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
